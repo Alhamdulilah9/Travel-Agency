@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1627860284764-c92502f39afb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHJvbGV4fGVufDB8fDB8fHww');
+}
+
+.header {
+  background: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.product-section {
+  padding: 60px 0;
+}
+
+.product-card {
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.footer {
+  background: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
